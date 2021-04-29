@@ -1,0 +1,23 @@
+{
+    "name": "guyan/mycdemo",
+    "description": "demo",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "guyan0319",
+            "email": "guyan0319@sohu.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+      "php": ">=7.0"
+    },
+    "autoload": {
+    "psr-4": {
+      "User\\Client\\": "src/User/Client"
+    }
+  }
+}
+
